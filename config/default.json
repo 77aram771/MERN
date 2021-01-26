@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "Aram das MERN",
+  "mongoUri": "mongodb+srv://Aram:Aram--77@cluster0.czz97.mongodb.net/app?retryWrites=true&w=majority"
+}

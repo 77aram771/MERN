@@ -1,0 +1,26 @@
+{
+  "name": "MERN",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/77aram771/MERN.git",
+  "author": "Aram Grigoryan <77aram39@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "clinet": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run clinet\""
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
